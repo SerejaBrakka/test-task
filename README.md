@@ -5,6 +5,7 @@ HTML , CSS , JS , React
 
 
 Flex, Grid, css-module.
+Адаптивная верстка под мобильные устройства.
 
 
 Component, useState.
