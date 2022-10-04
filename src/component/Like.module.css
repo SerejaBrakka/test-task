@@ -1,0 +1,59 @@
+.footer img {
+  width: 15px;
+  height: 15px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  height: 40px;
+  width: 100%;
+}
+.btn button {
+  height: 100%;
+  width: 128px;
+}
+
+.likes button {
+  height: 40px;
+  width: 95px;
+}
+
+.comments button {
+  height: 40px;
+  width: 95px;
+}
+.footer button {
+  background-color: ghostwhite;
+  border: none;
+}
+.description {
+  padding: 10px;
+}
+.description p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.likesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commentsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  margin-left: 2px;
+  margin-right: 0;
+}
+.footer button:hover {
+  cursor: pointer;
+}

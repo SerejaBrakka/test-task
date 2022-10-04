@@ -1,0 +1,44 @@
+.container h1 {
+  text-align: center;
+}
+body {
+  background-color: blanchedalmond;
+}
+.refresh img {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.refresh {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.refresh button {
+  background-color: ghostwhite;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.refresh button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    justify-content: space-around;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+  }
+  .container h1 {
+    margin-bottom: 0;
+  }
+}
